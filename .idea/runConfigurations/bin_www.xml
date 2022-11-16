@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin\www" type="NodeJSConfigurationType" singleton="false" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+      <profiling log-folder="C:\Users\Shiwirockztar\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\221.5921.27\jbr\bin\." />
+    </EXTENSION>
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeStartBrowserRunConfigurationExtension">
+      <browser url="http://localhost:3000/" />
+    </EXTENSION>
+    <envs>
+      <env name="DEBUG" value="reto3:*" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>

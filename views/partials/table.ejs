@@ -1,0 +1,23 @@
+<thead>
+<tr class="bg-primary text-white">
+    <th scope="col">ID</th>
+    <th scope="col">PACIENTE</th>
+    <th scope="col">DOCUMENTO</th>
+    <th scope="col">TIPO DE SANGRE</th>
+    <th scope="col">ACCIONES</th>
+</tr>
+</thead>
+<tbody>
+<% data.forEach((patient) => { %>
+    <tr>
+        <td><%= patient._id %></td>
+        <td><%= patient.patient %></td>
+        <td><%= patient.document %></td>
+        <td><%= patient.bloodType %></td>
+        <td>
+            <a href="/update/<%= patient._id %>"  class="btn btn-outline-info" value=<%= patient._id %> >editar</a>
+            <a href="#" class="btn btn-outline-danger" value="<%= patient._id %>">borrar</a>
+        </td>
+    </tr>
+<% }) %>
+</tbody>
