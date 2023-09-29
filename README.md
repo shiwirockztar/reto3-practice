@@ -2,7 +2,7 @@
   <img src="https://blog.nextideatech.com/wp-content/uploads/2022/12/v2-68637ef485bc0db7ccc83043cc38020e_1440w.png" width="600" />
 </p>
 
-<h1 align="center">Project Nodejs Net Socket Server and Clients</h1>
+<h1 align="center">Project Nodejs With MongoDb</h1>
 
 <p align="center">With this challenge we seek to implement all the knowledge we have seen so far to create a  api rest CRUD.</p>
 
